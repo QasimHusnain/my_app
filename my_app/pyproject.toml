@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "my-app"
+version = "0.1.0"
+description = ""
+authors = ["Qasim Husnain <qasimhusnain4u@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydeck = "^0.9.1"
+streamlit = "^1.38.0"
+matplotlib = "^3.9.2"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
